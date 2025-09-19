@@ -1,0 +1,22 @@
+{
+  "name": "browser-api",
+  "version": "1.0.0",
+  "description": "Simple persistent Playwright browser API (profiles per email)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "postinstall": "npx playwright install"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "playwright": "^1.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
